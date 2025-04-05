@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the built JAR file into the container
-COPY target/dock-0.0.1-SNAPSHOT.jar dock.jar
+COPY target/dock.jar dock.jar
 
 # Expose the port the app runs on
 EXPOSE 8080
